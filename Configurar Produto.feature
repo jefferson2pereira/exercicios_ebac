@@ -25,10 +25,10 @@
 
             Esquema do Cenário: Seleção de Cor,  Tamanho e Quantidade
             Quando o usuario escolher a <cor>, <tamanho> e <quantidade> do Produto desejado
-            Então deve disponibilizar ao carrinho os produtos disponiveis em <caracteriticas selecionadas>
+            Então deve disponibilizar ao carrinho os produtos disponiveis em <caracteritica selecionada>
            
             Exemplos:
-            | "cor"    | "tamanho | "quantidade" | "caracteristica selecionada" |
+            | "cor"    | "tamanho" | "quantidade" | "caracteristica selecionada" |
             | "Blue"   | "XS"     | "2"          | "2-Produto-Blue-XS"          |
             | "Blue"   | "S"      | "1"          | "1-Produto-Blue-S"           |
             | "Orange" | "M"      | "5"          | "5-Produto-Orange-M"         |
